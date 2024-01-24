@@ -1,2 +1,2 @@
-# make-buttery
-Personal Website
+# personal_blog_post
+Introduction into who I am.
