@@ -1,8 +1,10 @@
 div.top-container {
-  background-color: #0f0223;
+  background-color: #04233d;
   padding-top: 2%;
+  padding-right: 4.5%;
   position: relative;
-  right: 10%;
+  right: 5%;
+  width: 100%;
 }
 
 .my-name-title {
@@ -39,7 +41,7 @@ div.middle-container {
 }
 
 body {
-  background-color: #cdf2f2;
+  background-color: #7ed4d4;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -49,7 +51,7 @@ h1 {
   font-size: 80px;
   margin: 50px auto 0 auto;
   font-family: 'Merriweather', bold;
-  color: #cdf2f2;
+  color: #188c8c;
   line-height: 2;
 }
 
@@ -58,7 +60,7 @@ hr {
   border-style: none;
   background-color: none;
   border-top-style: dotted;
-  border-color: #cdf2f2;
+  border-color: #7ed4d4;
   border-width: 5px;
   margin: 100px auto;
 }
@@ -101,7 +103,7 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #cdf2f2;
+  background-color: #7ed4d4;
   padding: 30px;
   text-align: center;
 }
@@ -160,7 +162,7 @@ a:hover {
 }
 
 .btn {
-  background: #cdf2f2;
+  background: #7ed4d4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
@@ -171,9 +173,12 @@ a:hover {
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  font-size: 200%;
+  position: relative;
+  left: 90%;
+  bottom: -60px;
 }
 
 .btn:hover {
