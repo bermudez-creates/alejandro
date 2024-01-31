@@ -1,20 +1,20 @@
 div.top-container {
   background-color: #04233d;
   padding-top: 2%;
-  padding-right: 4.5%;
+  padding-right: 90%;
   position: relative;
   right: 5%;
   width: 100%;
 }
 
 .my-name-title {
-  position: relative;
-  left: 30%;
+  position: absolute;
+  left: 60%;
 }
 
 div.top-container-titles {
-  position: relative;
-  left: 30%;
+  position: absolute;
+  left: 60%;
 }
 
 .portrait-image {
@@ -35,6 +35,9 @@ div.top-container-titles {
 div.middle-container {
   background-color: rgb(48, 9, 103);
   padding: 1%;
+  align-items: center;
+  align-content: center;
+  margin-right: -320px;
 }
 .mid-container-img {
   width: 25%;
@@ -106,6 +109,10 @@ h3 {
   background-color: #7ed4d4;
   padding: 30px;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  left: 40%;
 }
 
 .bottom-outro {
@@ -195,22 +202,42 @@ a:hover {
 @media all and (max-width: 900px) and (min-width: 375px) {
   /* top content */
   body {
-    width: fit-content;
+    /* width: fit-content; */
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Merriweather', bold;
-    color: #cdf2f2;
+    color: #188c8c;
   }
 
-  .title {
-    font-size: 100%;
+  h2 {
+    font-size: 20px;
+    font-family: 'Merriweather', bold;
+  }
+
+  .my-name-title {
+    position: relative;
+    right: 150%;
+  }
+
+  div.top-container-titles {
+    font-size: 20px;
+    position: relative;
+    right: 150%;
   }
 
   .portrait-image {
-    width: 50%;
-    border-radius: 10%;
+    position: relative;
+    top: -170px;
+    height: fit-content;
+  }
+
+  .angel-image {
+    opacity: 30%;
+    position: relative;
+    top: -170px;
+    height: fit-content;
   }
 
   /* mid content */
